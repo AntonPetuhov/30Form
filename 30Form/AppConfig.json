@@ -1,0 +1,6 @@
+{
+  "ConnnectionStrings": {
+    "CGMConnection": "Server=CGM-APP11\\SQLCGMAPP11;Database=KDLPROD;MultipleActiveResultSets=true;TrustServerCertificate=True;",
+    "CGMConnection2": "Data Source=CGM-APP11\\SQLCGMAPP11;Initial Catalog=TSTPROD;"
+  }
+}
