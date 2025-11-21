@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\anton.petuhov\\source\\repos\\30Form\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{356D9169-7D54-4122-9408-2799AE3C39FC}|30Form\\30Form.csproj|c:\\users\\anton.petuhov\\source\\repos\\30form\\30form\\excelgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{356D9169-7D54-4122-9408-2799AE3C39FC}|30Form\\30Form.csproj|solutionrelative:30form\\excelgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{356D9169-7D54-4122-9408-2799AE3C39FC}|30Form\\30Form.csproj|c:\\users\\anton.petuhov\\source\\repos\\30form\\30form\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{356D9169-7D54-4122-9408-2799AE3C39FC}|30Form\\30Form.csproj|solutionrelative:30form\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{356D9169-7D54-4122-9408-2799AE3C39FC}|30Form\\30Form.csproj|c:\\users\\anton.petuhov\\source\\repos\\30form\\30form\\reporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{356D9169-7D54-4122-9408-2799AE3C39FC}|30Form\\30Form.csproj|solutionrelative:30form\\reporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{356D9169-7D54-4122-9408-2799AE3C39FC}|30Form\\30Form.csproj|c:\\users\\anton.petuhov\\source\\repos\\30form\\30form\\excelgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{356D9169-7D54-4122-9408-2799AE3C39FC}|30Form\\30Form.csproj|solutionrelative:30form\\excelgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{356D9169-7D54-4122-9408-2799AE3C39FC}|30Form\\30Form.csproj|c:\\users\\anton.petuhov\\source\\repos\\30form\\30form\\appconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{356D9169-7D54-4122-9408-2799AE3C39FC}|30Form\\30Form.csproj|solutionrelative:30form\\appconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{356D9169-7D54-4122-9408-2799AE3C39FC}|30Form\\30Form.csproj|c:\\users\\anton.petuhov\\source\\repos\\30form\\30form\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{356D9169-7D54-4122-9408-2799AE3C39FC}|30Form\\30Form.csproj|solutionrelative:30form\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{356D9169-7D54-4122-9408-2799AE3C39FC}|30Form\\30Form.csproj|c:\\users\\anton.petuhov\\source\\repos\\30form\\30form\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,24 +30,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Reporter.cs",
               "DocumentMoniker": "C:\\Users\\anton.petuhov\\source\\repos\\30Form\\30Form\\Reporter.cs",
               "RelativeDocumentMoniker": "30Form\\Reporter.cs",
               "ToolTip": "C:\\Users\\anton.petuhov\\source\\repos\\30Form\\30Form\\Reporter.cs",
               "RelativeToolTip": "30Form\\Reporter.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAvwDcAAAAIAAAA",
+              "ViewState": "AQIAAOICAAAAAAAAAADwv4MEAABzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-03T13:13:39.233Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "AppConfig.json",
               "DocumentMoniker": "C:\\Users\\anton.petuhov\\source\\repos\\30Form\\30Form\\AppConfig.json",
               "RelativeDocumentMoniker": "30Form\\AppConfig.json",
@@ -59,29 +59,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ExcelGenerator.cs",
               "DocumentMoniker": "C:\\Users\\anton.petuhov\\source\\repos\\30Form\\30Form\\ExcelGenerator.cs",
               "RelativeDocumentMoniker": "30Form\\ExcelGenerator.cs",
               "ToolTip": "C:\\Users\\anton.petuhov\\source\\repos\\30Form\\30Form\\ExcelGenerator.cs",
               "RelativeToolTip": "30Form\\ExcelGenerator.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAkwD0AAAApAAAA",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAcwF0AAABPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T09:21:59.372Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-01T09:21:59.372Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Worker.cs",
               "DocumentMoniker": "C:\\Users\\anton.petuhov\\source\\repos\\30Form\\30Form\\Worker.cs",
               "RelativeDocumentMoniker": "30Form\\Worker.cs",
               "ToolTip": "C:\\Users\\anton.petuhov\\source\\repos\\30Form\\30Form\\Worker.cs",
               "RelativeToolTip": "30Form\\Worker.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAowDEAAAArAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBMAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T11:20:39.861Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T11:20:39.861Z"
             },
             {
               "$type": "Document",

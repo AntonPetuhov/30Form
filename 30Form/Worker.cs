@@ -16,8 +16,7 @@ namespace _30Form
         {
             ExcelPackage.License.SetNonCommercialPersonal("FNKC");
 
-            //string filePath = AppDomain.CurrentDomain.BaseDirectory + "\\" + $"Отчет 30 форма КДЛ (за {DateTime.Now.AddMonths(-1).ToString()}) {DateTime.Now.ToString()}";
-           // string filePath = AppDomain.CurrentDomain.BaseDirectory + "\\" + $"Отчет 30 форма КДЛ.xlsx";
+            /*
             string filePath = AppDomain.CurrentDomain.BaseDirectory + "\\" + $"Отчет 30 форма КДЛ " + DateTime.Now.ToShortDateString() + ".xlsx";
             string worksheetName = "Форма № 30";
 
@@ -31,34 +30,15 @@ namespace _30Form
                 newFile = new FileInfo(filePath);
             }
 
-
-            ExcelPackage package = new ExcelPackage(newFile);
-            using (package) 
-            {
-                ExcelWorksheet worksheet = package.Workbook.Worksheets.Add(worksheetName);
-            }
-
-            
             ExcelGenerator reportExcel = new ExcelGenerator(); // объект для работы с excel
-
-            reportExcel.GenerateExcel(package, worksheetName);
-
+            reportExcel.GenerateExcel(newFile, worksheetName); // создаем файл с заголовками
+            */
 
             Reporter reporter = new Reporter();
-            var reportData = reporter.GetReport();
+            reporter.StartReporter();
 
-            reportExcel.InsertData(package, worksheetName, reportData);
 
-            /*
-            ExcelGenerator reportExcel = new ExcelGenerator();
-            //reportExcel.Generate(filePath, worksheetName, reportData);
 
-            byte[] report = reportExcel.Generate(filePath, worksheetName, reportData);
-            File.WriteAllBytes(filePath, report);
-
-            //reportExcel.Create(filePath, worksheetName, reportData);
-            */
- 
 
             while (!stoppingToken.IsCancellationRequested)
             {
